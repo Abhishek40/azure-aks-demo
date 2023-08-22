@@ -12,7 +12,7 @@ curl -O https://releases.hashicorp.com/terraform/1.5.5/terraform_1.5.5_linux_amd
 unzip terraform_1.5.5_linux_amd64.zip
 mkdir bin
 mv terraform bin/
-
+```t
 ## Verify AZ subscription
 az account show
 
@@ -24,4 +24,3 @@ ssh-keygen \
     -b 4096 \
     -C "abhishekpal5413@myserver" \
     -f terraform-azure.pem
-```t
